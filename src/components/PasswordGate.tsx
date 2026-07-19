@@ -40,7 +40,6 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
           }}
         />
 
-        {/* Unlock button on the main page — circular, red */}
         <button
           type="button"
           onClick={() => setShowModal(true)}
@@ -51,8 +50,8 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
             bottom: '5%',
             transform: 'translateX(-50%)',
             backgroundColor: 'transparent',
-            border: '2px solid #B3202F',
-            color: '#B3202F',
+            border: '2px solid #C1394A',
+            color: '#C1394A',
             fontFamily: "'Cardo', serif",
             fontSize: '1rem',
           }}
@@ -60,7 +59,6 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
           Unlock
         </button>
 
-        {/* Popup with low-opacity dark overlay */}
         {showModal && (
           <div
             className="absolute inset-0 flex items-center justify-center z-20 px-6"
@@ -82,7 +80,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                       width: '100%',
                       fontFamily: "'Courier Prime', monospace",
                       fontSize: '0.8rem',
-                      color: 'white',
+                      color: 'black',
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
@@ -98,7 +96,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                     style={{
                       fontFamily: "'Courier Prime', monospace",
                       fontSize: '0.7rem',
-                      color: '#FCA5A5',
+                      color: '#8B1E2B',
                     }}
                   >
                     {error}
@@ -111,7 +109,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                   style={{
                     backgroundColor: 'transparent',
                     border: 'none',
-                    color: '#B3202F',
+                    color: '#C1394A',
                     fontFamily: "'Cardo', serif",
                     fontSize: '1rem',
                     fontWeight: 'bold',

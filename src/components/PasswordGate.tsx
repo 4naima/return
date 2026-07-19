@@ -109,7 +109,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                   style={{
                     backgroundColor: 'transparent',
                     border: 'none',
-                    color: '#C1394A',
+                    color: '#8B1E2B',
                     fontFamily: "'Cardo', serif",
                     fontSize: '1rem',
                     fontWeight: 'bold',

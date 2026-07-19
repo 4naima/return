@@ -107,7 +107,7 @@ export function SongPlaylist() {
       <h3
         className="text-white text-center mb-4 text-base sm:text-lg tracking-wide"
         style={{ fontFamily: "'Cinzel', serif" }}>
-        18 dedicated songs for your 18th birthday
+        18 songs I thought of you while picking
       </h3>
 
       <div

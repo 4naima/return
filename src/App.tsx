@@ -13,7 +13,7 @@ export default function App() {
   }
 
   return (
-    <div className="relative h-screen">
+    <div className="relative h-dvh">
       <div
         className="fixed inset-0 -z-10 pointer-events-none"
         style={{
@@ -27,8 +27,7 @@ export default function App() {
       />
       <div className="absolute inset-0 backdrop-blur-[2px] pointer-events-none" />
       <div
-        className="relative z-10 h-full overflow-y-auto space-y-12 max-w-6xl mx-auto p-4 py-12"
-        style={{ WebkitOverflowScrolling: 'touch' }}
+        className="relative z-10 h-full overflow-y-auto space-y-12 max-w-6xl mx-auto px-4 pt-12 pb-32"
       >
         <SongPlaylist />
         <VoiceNote />

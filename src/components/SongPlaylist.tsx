@@ -19,7 +19,7 @@ const songs = [
   { id: 14, title: "Tum Se Hi", artist: "Mohit Chauhan & Pritam", duration: "4:18", cover: "https://i1.sndcdn.com/artworks-w14JyiO8dGOfZrDP-69hakw-t500x500.jpg", youtubeUrl: "https://www.youtube.com/watch?v=mt9xg0mmt28" },
   { id: 15, title: "She Will Be Loved", artist: "Maroon 5", duration: "4:28", cover: "https://upload.wikimedia.org/wikipedia/en/1/1b/She_Will_be_Loved_cover.png", youtubeUrl: "https://www.youtube.com/watch?v=nIjVuRTm-dc" },
   { id: 16, title: "Her", artist: "JVKE", duration: "2:51", cover: "https://i1.sndcdn.com/artworks-OZdapPajMSfZ-0-t500x500.jpg", youtubeUrl: "https://www.youtube.com/watch?v=f5-IY_Ja1RM&list=RDf5-IY_Ja1RM&start_radio=1" },
-  { id: 17, title: "Aankhein Teri", artist: "Roopkumar Rathod", duration: "6:04", cover: "https://i.imgur.com/IpOEbOi.jpeg", youtubeUrl: "https://www.youtube.com/watch?v=pFxzF6lUx_0&list=RDpFxzF6lUx_0&start_radio=1" },
+  { id: 17, title: "Aankhein Teri", artist: "Roopkumar Rathod", duration: "6:04", cover: "https://i.imgur.com/yBH1YWL.png", youtubeUrl: "https://www.youtube.com/watch?v=pFxzF6lUx_0&list=RDpFxzF6lUx_0&start_radio=1" },
   { id: 18, title: " Be My Baby", artist: "The Ronettes", duration: "2:42", cover: "https://i.scdn.co/image/ab67616d0000b273b298efc29df3b69ec3f0d675", youtubeUrl: "https://www.youtube.com/watch?v=jSPpbOGnFgk" },
 ];
 

@@ -13,7 +13,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
   // need to edit to update it later.
   const correctPassword = 'OpenSesame26';
 
-  const BG_URL = 'https://raw.githubusercontent.com/4naima/gift/main/bjjkukk.jpeg';
+  const BG_URL = 'https://i.ibb.co.com/LX2p48Wx/Brown-Photographic-Vintage-Christmas-Craft-Market-Flyer-20260719-165456-0000.jpg';
 
   useEffect(() => {
     const img = new Image();

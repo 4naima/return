@@ -80,7 +80,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                       width: '100%',
                       fontFamily: "'Courier Prime', monospace",
                       fontSize: '0.8rem',
-                      color: 'black',
+                      color: 'white',
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',

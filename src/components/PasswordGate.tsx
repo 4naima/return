@@ -48,7 +48,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
           style={{
             position: 'absolute',
             left: '50%',
-            bottom: '9%',
+            bottom: '5%',
             transform: 'translateX(-50%)',
             backgroundColor: 'transparent',
             border: '2px solid #B3202F',
@@ -68,11 +68,11 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
             onClick={() => setShowModal(false)}
           >
             <div
-              className="w-full max-w-xs bg-white/20 backdrop-blur-md rounded-3xl border border-white/30 shadow-2xl px-6 py-8 flex flex-col items-center gap-4"
+              className="w-full max-w-xs bg-white/10 backdrop-blur-md rounded-3xl border border-white/20 shadow-2xl px-6 py-8 flex flex-col items-center gap-4"
               onClick={(e) => e.stopPropagation()}
             >
               <form onSubmit={handleSubmit} className="w-full flex flex-col items-center gap-4">
-                <div className="w-full bg-white/20 backdrop-blur-md rounded-2xl border border-white/30 px-4 py-3">
+                <div className="w-full bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 px-4 py-3">
                   <input
                     type="password"
                     value={password}

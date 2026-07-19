@@ -3,7 +3,7 @@ import { PasswordGate } from './components/PasswordGate';
 import { SongPlaylist } from './components/SongPlaylist';
 import { VoiceNote } from './components/VoiceNote';
 
-const musicBg = 'https://i.ibb.co.com/gZNXXB6X/neww-all-bg.jpg';
+const musicBg = 'https://ibb.co.com/Lh1XjfLT';
 
 export default function App() {
   const [unlocked, setUnlocked] = useState(false);

@@ -16,7 +16,7 @@ export default function App() {
 
   return (
     <div
-      className="min-h-screen relative"
+      className="min-h-dvh relative"
       style={{
         backgroundImage: `url(${musicBg})`,
         backgroundSize: 'cover',

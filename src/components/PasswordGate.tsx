@@ -131,40 +131,4 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
       </div>
     </div>
   );
-}        {error && (
-          <p
-            style={{
-              position: 'absolute',
-              left: '24.7%',
-              top: '73.9%',
-              fontFamily: "'Courier Prime', monospace",
-              fontSize: '0.65rem',
-              color: '#8B593C',
-            }}
-          >
-            {error}
-          </p>
-        )}
-
-        <button
-          type="submit"
-          onClick={handleSubmit}
-          className="px-6 py-2 rounded-full font-bold cursor-pointer"
-          style={{
-            position: 'absolute',
-            left: '50%',
-            bottom: '9%',
-            transform: 'translateX(-50%)',
-            backgroundColor: 'transparent',
-            border: '2px solid #8B593C',
-            color: '#8B593C',
-            fontFamily: "'Cardo', serif",
-            fontSize: '1rem',
-          }}
-        >
-          Unlock
-        </button>
-      </div>
-    </div>
-  );
 }

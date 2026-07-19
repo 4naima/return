@@ -13,18 +13,23 @@ export default function App() {
   }
 
   return (
-    <div className="relative min-h-screen">
+    <div className="relative h-screen">
       <div
-        className="fixed inset-0 -z-10"
+        className="fixed inset-0 -z-10 pointer-events-none"
         style={{
           backgroundImage: `url(${musicBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
+          WebkitTouchCallout: 'none',
+          userSelect: 'none',
         }}
       />
       <div className="absolute inset-0 backdrop-blur-[2px] pointer-events-none" />
-      <div className="relative z-10 space-y-12 max-w-6xl mx-auto p-4 py-12">
+      <div
+        className="relative z-10 h-full overflow-y-auto space-y-12 max-w-6xl mx-auto p-4 py-12"
+        style={{ WebkitOverflowScrolling: 'touch' }}
+      >
         <SongPlaylist />
         <VoiceNote />
       </div>

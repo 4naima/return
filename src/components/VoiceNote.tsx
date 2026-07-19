@@ -8,7 +8,7 @@ export function VoiceNote() {
 
   const bgIMG = 'https://i.ibb.co.com/zWH7FL4K/IMG-20260719-172208.jpg';
   const cdImg = 'https://raw.githubusercontent.com/4naima/gift/main/new%20cd11.png';
-  const cdCaseImg = 'https://raw.githubusercontent.com/4naima/gift/main/new%20cd%20case11.png';
+  const cdCaseImg = 'https://i.ibb.co.com/dstFRG1V/Bold-Modern-Music-Album-Cover-Instagram-Post-20260719-181339-0000.png';
 
   useEffect(() => {
     const audio = new Audio("https://files.catbox.moe/0g63rd.mp3");

@@ -6,7 +6,7 @@ export function VoiceNote() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const bgIMG = 'https://i.ibb.co.com/273zjZsn/Whats-App-Image-2026-03-02-at-8-32-40-PM.jpg';
+  const bgIMG = 'https://i.ibb.co.com/zWH7FL4K/IMG-20260719-172208.jpg';
   const cdImg = 'https://raw.githubusercontent.com/4naima/gift/main/new%20cd11.png';
   const cdCaseImg = 'https://raw.githubusercontent.com/4naima/gift/main/new%20cd%20case11.png';
 

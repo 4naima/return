@@ -40,7 +40,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
           }}
         />
 
-        {/* Unlock button on the main page */}
+        {/* Unlock button on the main page — circular, red */}
         <button
           type="button"
           onClick={() => setShowModal(true)}
@@ -51,8 +51,8 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
             bottom: '9%',
             transform: 'translateX(-50%)',
             backgroundColor: 'transparent',
-            border: '2px solid #7A1E2B',
-            color: '#7A1E2B',
+            border: '2px solid #B3202F',
+            color: '#B3202F',
             fontFamily: "'Cardo', serif",
             fontSize: '1rem',
           }}
@@ -63,22 +63,16 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
         {/* Popup with low-opacity dark overlay */}
         {showModal && (
           <div
-            className="absolute inset-0 flex items-center justify-center z-20"
+            className="absolute inset-0 flex items-center justify-center z-20 px-6"
             style={{ backgroundColor: 'rgba(0, 0, 0, 0.45)' }}
             onClick={() => setShowModal(false)}
           >
             <div
-              className="bg-white rounded-2xl px-6 py-8 w-[80%] max-w-xs shadow-2xl"
+              className="w-full max-w-xs bg-white/20 backdrop-blur-md rounded-3xl border border-white/30 shadow-2xl px-6 py-8 flex flex-col items-center gap-4"
               onClick={(e) => e.stopPropagation()}
             >
-              <form onSubmit={handleSubmit} className="flex flex-col items-center gap-3">
-                <div
-                  style={{
-                    width: '100%',
-                    borderBottom: '0.8px solid black',
-                    paddingBottom: '4px',
-                  }}
-                >
+              <form onSubmit={handleSubmit} className="w-full flex flex-col items-center gap-4">
+                <div className="w-full bg-white/20 backdrop-blur-md rounded-2xl border border-white/30 px-4 py-3">
                   <input
                     type="password"
                     value={password}
@@ -87,8 +81,8 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                     style={{
                       width: '100%',
                       fontFamily: "'Courier Prime', monospace",
-                      fontSize: '0.75rem',
-                      color: 'black',
+                      fontSize: '0.8rem',
+                      color: 'white',
                       backgroundColor: 'transparent',
                       border: 'none',
                       outline: 'none',
@@ -104,7 +98,7 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
                     style={{
                       fontFamily: "'Courier Prime', monospace",
                       fontSize: '0.7rem',
-                      color: '#8B593C',
+                      color: '#FCA5A5',
                     }}
                   >
                     {error}
@@ -113,13 +107,14 @@ export function PasswordGate({ onUnlock }: PasswordGateProps) {
 
                 <button
                   type="submit"
-                  className="px-6 py-2 rounded-full font-bold cursor-pointer mt-2"
+                  className="cursor-pointer"
                   style={{
                     backgroundColor: 'transparent',
-                    border: '2px solid #7A1E2B',
-                    color: '#7A1E2B',
+                    border: 'none',
+                    color: '#B3202F',
                     fontFamily: "'Cardo', serif",
                     fontSize: '1rem',
+                    fontWeight: 'bold',
                   }}
                 >
                   Unlock
